@@ -8,7 +8,7 @@ public class SingleForLoopToSortingAnArray {
 
 		for (int i = 1; i < a.length; i++) {
 
-			if (a[i] > a[i - 1]) {
+			if (a[i] < a[i - 1]) {
 
 				a[i] = a[i] + a[i - 1]; // 60 // a[1]== 60
 
